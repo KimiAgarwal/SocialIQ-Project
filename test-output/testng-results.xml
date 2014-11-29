@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29417" started-at="2014-11-29T07:38:40Z" finished-at="2014-11-29T07:39:09Z">
+  <suite name="Default suite" duration-ms="24339" started-at="2014-11-29T09:21:14Z" finished-at="2014-11-29T09:21:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29417" started-at="2014-11-29T07:38:40Z" finished-at="2014-11-29T07:39:09Z">
-      <class name="com.SocialIQ.SubDomainEmpty">
-        <test-method status="PASS" signature="FirstNameValidationTest()[pri:0, instance:com.SocialIQ.SubDomainEmpty@322c1e6b]" name="FirstNameValidationTest" duration-ms="29388" started-at="2014-11-29T13:08:40Z" finished-at="2014-11-29T13:09:09Z">
+    <test name="Default test" duration-ms="24339" started-at="2014-11-29T09:21:14Z" finished-at="2014-11-29T09:21:38Z">
+      <class name="com.SocialIQ.EmailIdNull">
+        <test-method status="PASS" signature="FirstNameValidationTest1()[pri:0, instance:com.SocialIQ.EmailIdNull@664883c]" name="FirstNameValidationTest1" duration-ms="24306" started-at="2014-11-29T14:51:14Z" finished-at="2014-11-29T14:51:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FirstNameValidationTest -->
-      </class> <!-- com.SocialIQ.SubDomainEmpty -->
+        </test-method> <!-- FirstNameValidationTest1 -->
+      </class> <!-- com.SocialIQ.EmailIdNull -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

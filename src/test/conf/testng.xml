@@ -8,14 +8,16 @@
        <class name="com.SocialIQ.EmailIdInvalid" />     
        
        <class name="com.SocialIQ.EmailIdExist" /> 
+       
+       <class name="com.SocialIQ.EmailIdNull" />
        	
        	<class name="com.SocialIQ.OfferCodeExist" />
        	
-  	<class name="com.SocialIQ.OfferCodeExpired" />
+     	<class name="com.SocialIQ.OfferCodeExpired" />
        	
      	<class name="com.SocialIQ.OfferCodeNtValid" />
     
-        	<class name="com.SocialIQ.SubDomainEmpty" /> 
+      	<class name="com.SocialIQ.SubDomainEmpty" /> 
        	
        	<class name="com.SocialIQ.SubDomainInvalid" />
        	
