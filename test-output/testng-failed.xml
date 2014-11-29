@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite1]">
-  <test name="exampletest1(failed)">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.SocialIQ.SubDomainInvalid">
+      <class name="com.SocialIQLogin.LoginPage">
         <methods>
-          <include name="FirstNameValidationTest"/>
+          <include name="FirstNameValidationTest1"/>
         </methods>
-      </class> <!-- com.SocialIQ.SubDomainInvalid -->
+      </class> <!-- com.SocialIQLogin.LoginPage -->
     </classes>
-  </test> <!-- exampletest1(failed) -->
-</suite> <!-- Failed suite [Suite1] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -10,7 +10,7 @@ public class LoginPage {
 	public void FirstNameValidationTest1() throws InterruptedException{
 	WebDriver driver = new FirefoxDriver();
 	driver.manage().window().maximize();
-	driver.get("app.siq.qa2.intelligrape.net");
+	driver.get("http://app.siq.qa2.intelligrape.net/");
 	
 }
 }
