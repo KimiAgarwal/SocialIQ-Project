@@ -1,8 +1,0 @@
-# .gitignore for selenium
-
-/.settings
-/.classpath
-/.project
-/target/
-/test-output/
-*.class
