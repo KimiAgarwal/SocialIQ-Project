@@ -2,78 +2,78 @@
 <testng-results skipped="0" failed="0" total="12" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="391001" started-at="2014-11-29T09:12:02Z" finished-at="2014-11-29T09:18:33Z">
+  <suite name="Suite1" duration-ms="416745" started-at="2014-11-29T10:08:14Z" finished-at="2014-11-29T10:15:11Z">
     <groups>
     </groups>
-    <test name="exampletest1" duration-ms="391001" started-at="2014-11-29T09:12:02Z" finished-at="2014-11-29T09:18:33Z">
+    <test name="exampletest1" duration-ms="416745" started-at="2014-11-29T10:08:14Z" finished-at="2014-11-29T10:15:11Z">
       <class name="com.SocialIQ.EmailIdAlreadyExist">
-        <test-method status="PASS" signature="FirstNameValidationTest1()[pri:0, instance:com.SocialIQ.EmailIdAlreadyExist@a8c488]" name="FirstNameValidationTest1" duration-ms="32736" started-at="2014-11-29T14:42:02Z" finished-at="2014-11-29T14:42:35Z">
+        <test-method status="PASS" signature="FirstNameValidationTest1()[pri:0, instance:com.SocialIQ.EmailIdAlreadyExist@a8c488]" name="FirstNameValidationTest1" duration-ms="35218" started-at="2014-11-29T15:38:14Z" finished-at="2014-11-29T15:38:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FirstNameValidationTest1 -->
       </class> <!-- com.SocialIQ.EmailIdAlreadyExist -->
       <class name="com.SocialIQ.TrialPage">
-        <test-method status="PASS" signature="FirstNameValidationTest()[pri:0, instance:com.SocialIQ.TrialPage@143c8b3]" name="FirstNameValidationTest" duration-ms="36167" started-at="2014-11-29T14:47:57Z" finished-at="2014-11-29T14:48:33Z">
+        <test-method status="PASS" signature="FirstNameValidationTest()[pri:0, instance:com.SocialIQ.TrialPage@143c8b3]" name="FirstNameValidationTest" duration-ms="31950" started-at="2014-11-29T15:44:39Z" finished-at="2014-11-29T15:45:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FirstNameValidationTest -->
       </class> <!-- com.SocialIQ.TrialPage -->
-      <class name="com.SocialIQ.SubDomainEmpty">
-        <test-method status="PASS" signature="FirstNameValidationTest()[pri:0, instance:com.SocialIQ.SubDomainEmpty@86c347]" name="FirstNameValidationTest" duration-ms="35099" started-at="2014-11-29T14:45:40Z" finished-at="2014-11-29T14:46:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FirstNameValidationTest -->
-      </class> <!-- com.SocialIQ.SubDomainEmpty -->
       <class name="com.SocialIQ.EmailIdNull">
-        <test-method status="PASS" signature="FirstNameValidationTest1()[pri:0, instance:com.SocialIQ.EmailIdNull@df8f5e]" name="FirstNameValidationTest1" duration-ms="23834" started-at="2014-11-29T14:43:23Z" finished-at="2014-11-29T14:43:46Z">
+        <test-method status="PASS" signature="FirstNameValidationTest1()[pri:0, instance:com.SocialIQ.EmailIdNull@df8f5e]" name="FirstNameValidationTest1" duration-ms="23404" started-at="2014-11-29T15:40:42Z" finished-at="2014-11-29T15:41:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FirstNameValidationTest1 -->
       </class> <!-- com.SocialIQ.EmailIdNull -->
       <class name="com.SocialIQ.SubDomainExist">
-        <test-method status="PASS" signature="FirstNameValidationTest()[pri:0, instance:com.SocialIQ.SubDomainExist@b42cbf]" name="FirstNameValidationTest" duration-ms="28599" started-at="2014-11-29T14:46:51Z" finished-at="2014-11-29T14:47:19Z">
+        <test-method status="PASS" signature="FirstNameValidationTest()[pri:0, instance:com.SocialIQ.SubDomainExist@1dfafd1]" name="FirstNameValidationTest" duration-ms="28613" started-at="2014-11-29T15:43:36Z" finished-at="2014-11-29T15:44:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FirstNameValidationTest -->
       </class> <!-- com.SocialIQ.SubDomainExist -->
-      <class name="com.SocialIQ.OfferCodeExpired">
-        <test-method status="PASS" signature="FirstNameValidationTest()[pri:0, instance:com.SocialIQ.OfferCodeExpired@12d7a10]" name="FirstNameValidationTest" duration-ms="34783" started-at="2014-11-29T14:44:24Z" finished-at="2014-11-29T14:44:58Z">
+      <class name="com.SocialIQ.SubDomainEmpty">
+        <test-method status="PASS" signature="FirstNameValidationTest()[pri:0, instance:com.SocialIQ.SubDomainEmpty@86c347]" name="FirstNameValidationTest" duration-ms="28234" started-at="2014-11-29T15:42:37Z" finished-at="2014-11-29T15:43:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FirstNameValidationTest -->
-      </class> <!-- com.SocialIQ.OfferCodeExpired -->
+      </class> <!-- com.SocialIQ.SubDomainEmpty -->
       <class name="com.SocialIQ.OfferCodeExist">
-        <test-method status="PASS" signature="FirstNameValidationTest()[pri:0, instance:com.SocialIQ.OfferCodeExist@1f42b49]" name="FirstNameValidationTest" duration-ms="37242" started-at="2014-11-29T14:43:46Z" finished-at="2014-11-29T14:44:24Z">
+        <test-method status="PASS" signature="FirstNameValidationTest()[pri:0, instance:com.SocialIQ.OfferCodeExist@1f42b49]" name="FirstNameValidationTest" duration-ms="28592" started-at="2014-11-29T15:41:05Z" finished-at="2014-11-29T15:41:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FirstNameValidationTest -->
       </class> <!-- com.SocialIQ.OfferCodeExist -->
-      <class name="com.SocialIQ.OfferCodeNtValid">
-        <test-method status="PASS" signature="FirstNameValidationTest()[pri:0, instance:com.SocialIQ.OfferCodeNtValid@1feca64]" name="FirstNameValidationTest" duration-ms="41351" started-at="2014-11-29T14:44:58Z" finished-at="2014-11-29T14:45:40Z">
+      <class name="com.SocialIQ.OfferCodeExpired">
+        <test-method status="PASS" signature="FirstNameValidationTest()[pri:0, instance:com.SocialIQ.OfferCodeExpired@12d7a10]" name="FirstNameValidationTest" duration-ms="32729" started-at="2014-11-29T15:41:34Z" finished-at="2014-11-29T15:42:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FirstNameValidationTest -->
-      </class> <!-- com.SocialIQ.OfferCodeNtValid -->
-      <class name="com.SocialIQ.SubDomainInvalid">
-        <test-method status="PASS" signature="FirstNameValidationTest()[pri:0, instance:com.SocialIQ.SubDomainInvalid@145e044]" name="FirstNameValidationTest" duration-ms="35772" started-at="2014-11-29T14:46:15Z" finished-at="2014-11-29T14:46:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FirstNameValidationTest -->
-      </class> <!-- com.SocialIQ.SubDomainInvalid -->
+      </class> <!-- com.SocialIQ.OfferCodeExpired -->
       <class name="com.SocialIQ.TimeZoneMan">
-        <test-method status="PASS" signature="FirstNameValidationTest()[pri:0, instance:com.SocialIQ.TimeZoneMan@8fce95]" name="FirstNameValidationTest" duration-ms="37600" started-at="2014-11-29T14:47:19Z" finished-at="2014-11-29T14:47:57Z">
+        <test-method status="PASS" signature="FirstNameValidationTest()[pri:0, instance:com.SocialIQ.TimeZoneMan@8fce95]" name="FirstNameValidationTest" duration-ms="34051" started-at="2014-11-29T15:44:05Z" finished-at="2014-11-29T15:44:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FirstNameValidationTest -->
       </class> <!-- com.SocialIQ.TimeZoneMan -->
+      <class name="com.SocialIQ.SubDomainInvalid">
+        <test-method status="PASS" signature="FirstNameValidationTest()[pri:0, instance:com.SocialIQ.SubDomainInvalid@145e044]" name="FirstNameValidationTest" duration-ms="31570" started-at="2014-11-29T15:43:05Z" finished-at="2014-11-29T15:43:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstNameValidationTest -->
+      </class> <!-- com.SocialIQ.SubDomainInvalid -->
+      <class name="com.SocialIQ.OfferCodeNtValid">
+        <test-method status="PASS" signature="FirstNameValidationTest()[pri:0, instance:com.SocialIQ.OfferCodeNtValid@1feca64]" name="FirstNameValidationTest" duration-ms="29767" started-at="2014-11-29T15:42:07Z" finished-at="2014-11-29T15:42:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstNameValidationTest -->
+      </class> <!-- com.SocialIQ.OfferCodeNtValid -->
       <class name="com.SocialIQ.EmailIdExist">
-        <test-method status="PASS" signature="FirstNameValidationTest1()[pri:0, instance:com.SocialIQ.EmailIdExist@17e6a96]" name="FirstNameValidationTest1" duration-ms="24153" started-at="2014-11-29T14:42:58Z" finished-at="2014-11-29T14:43:23Z">
+        <test-method status="PASS" signature="FirstNameValidationTest1()[pri:0, instance:com.SocialIQ.EmailIdExist@17e6a96]" name="FirstNameValidationTest1" duration-ms="22450" started-at="2014-11-29T15:40:20Z" finished-at="2014-11-29T15:40:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FirstNameValidationTest1 -->
       </class> <!-- com.SocialIQ.EmailIdExist -->
       <class name="com.SocialIQ.EmailIdInvalid">
-        <test-method status="PASS" signature="FirstNameValidationTest2()[pri:0, instance:com.SocialIQ.EmailIdInvalid@998b08]" name="FirstNameValidationTest2" duration-ms="23628" started-at="2014-11-29T14:42:35Z" finished-at="2014-11-29T14:42:58Z">
+        <test-method status="PASS" signature="FirstNameValidationTest2()[pri:0, instance:com.SocialIQ.EmailIdInvalid@998b08]" name="FirstNameValidationTest2" duration-ms="90135" started-at="2014-11-29T15:38:50Z" finished-at="2014-11-29T15:40:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FirstNameValidationTest2 -->

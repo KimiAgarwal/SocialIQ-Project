@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="390.964" tests="12" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="416.711" tests="12" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Java\jdk1.6.0_06\jre\bin"/>
@@ -57,16 +57,16 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase name="FirstNameValidationTest1" classname="com.SocialIQ.EmailIdAlreadyExist" time="32.738"/>
-  <testcase name="FirstNameValidationTest2" classname="com.SocialIQ.EmailIdInvalid" time="23.624"/>
-  <testcase name="FirstNameValidationTest1" classname="com.SocialIQ.EmailIdExist" time="24.19"/>
-  <testcase name="FirstNameValidationTest1" classname="com.SocialIQ.EmailIdNull" time="23.797"/>
-  <testcase name="FirstNameValidationTest" classname="com.SocialIQ.OfferCodeExist" time="37.242"/>
-  <testcase name="FirstNameValidationTest" classname="com.SocialIQ.OfferCodeExpired" time="34.784"/>
-  <testcase name="FirstNameValidationTest" classname="com.SocialIQ.OfferCodeNtValid" time="41.352"/>
-  <testcase name="FirstNameValidationTest" classname="com.SocialIQ.SubDomainEmpty" time="35.098"/>
-  <testcase name="FirstNameValidationTest" classname="com.SocialIQ.SubDomainInvalid" time="35.773"/>
-  <testcase name="FirstNameValidationTest" classname="com.SocialIQ.SubDomainExist" time="28.598"/>
-  <testcase name="FirstNameValidationTest" classname="com.SocialIQ.TimeZoneMan" time="37.601"/>
-  <testcase name="FirstNameValidationTest" classname="com.SocialIQ.TrialPage" time="36.167"/>
+  <testcase name="FirstNameValidationTest1" classname="com.SocialIQ.EmailIdAlreadyExist" time="35.217"/>
+  <testcase name="FirstNameValidationTest2" classname="com.SocialIQ.EmailIdInvalid" time="90.134"/>
+  <testcase name="FirstNameValidationTest1" classname="com.SocialIQ.EmailIdExist" time="22.45"/>
+  <testcase name="FirstNameValidationTest1" classname="com.SocialIQ.EmailIdNull" time="23.404"/>
+  <testcase name="FirstNameValidationTest" classname="com.SocialIQ.OfferCodeExist" time="28.594"/>
+  <testcase name="FirstNameValidationTest" classname="com.SocialIQ.OfferCodeExpired" time="32.728"/>
+  <testcase name="FirstNameValidationTest" classname="com.SocialIQ.OfferCodeNtValid" time="29.767"/>
+  <testcase name="FirstNameValidationTest" classname="com.SocialIQ.SubDomainEmpty" time="28.234"/>
+  <testcase name="FirstNameValidationTest" classname="com.SocialIQ.SubDomainInvalid" time="31.57"/>
+  <testcase name="FirstNameValidationTest" classname="com.SocialIQ.SubDomainExist" time="28.613"/>
+  <testcase name="FirstNameValidationTest" classname="com.SocialIQ.TimeZoneMan" time="34.05"/>
+  <testcase name="FirstNameValidationTest" classname="com.SocialIQ.TrialPage" time="31.95"/>
 </testsuite>

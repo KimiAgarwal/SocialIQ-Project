@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="33442" started-at="2014-11-29T09:41:10Z" finished-at="2014-11-29T09:41:44Z">
+  <suite name="Default suite" duration-ms="29985" started-at="2014-11-29T10:05:33Z" finished-at="2014-11-29T10:06:03Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="33442" started-at="2014-11-29T09:41:10Z" finished-at="2014-11-29T09:41:44Z">
+    <test name="Default test" duration-ms="29985" started-at="2014-11-29T10:05:33Z" finished-at="2014-11-29T10:06:03Z">
       <class name="com.SocialIQLogin.LoginPage">
-        <test-method status="PASS" signature="FirstNameValidationTest1()[pri:0, instance:com.SocialIQLogin.LoginPage@1055e55f]" name="FirstNameValidationTest1" duration-ms="33408" started-at="2014-11-29T15:11:10Z" finished-at="2014-11-29T15:11:44Z">
+        <test-method status="PASS" signature="FirstNameValidationTest1()[pri:0, instance:com.SocialIQLogin.LoginPage@664883c]" name="FirstNameValidationTest1" duration-ms="29956" started-at="2014-11-29T15:35:33Z" finished-at="2014-11-29T15:36:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FirstNameValidationTest1 -->
