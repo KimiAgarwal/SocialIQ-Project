@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class LoginPage {
+public class BoTextFieldInvalid {
 
 	@Test
 	public void FirstNameValidationTest1() throws InterruptedException{
