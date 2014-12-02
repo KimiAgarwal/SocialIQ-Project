@@ -18,9 +18,8 @@ public class EmailIdInvalid {
 		driver. manage().window().maximize();
 		driver.get(com.SocialIQ.config.Config.APP_URL);
 		
-		WebElement companyAdminEmail = driver.findElement(By.id("companyAdminEmail"));
-		companyAdminEmail.sendKeys("kimi@com");
-		
+    	driver.findElement(By.id("companyAdminEmail")).sendKeys("raj.com");
+	
 		driver.findElement(By.id("firstNameOfCompanyAdmin")).click();
 		WebElement myDElement = new WebDriverWait(driver,20).until(ExpectedConditions.presenceOfElementLocated(By.id("companyAdminEmailValidation")));
         System.out.println(myDElement.getText());
@@ -32,4 +31,6 @@ public class EmailIdInvalid {
 		Assert.assertEquals(actualResult, expectedResult);
 		driver.quit();
 }
+
+
 }

@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="23016" started-at="2014-11-29T10:25:00Z" finished-at="2014-11-29T10:25:23Z">
+  <suite name="Default suite" duration-ms="35163" started-at="2014-12-02T08:29:42Z" finished-at="2014-12-02T08:30:17Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="23016" started-at="2014-11-29T10:25:00Z" finished-at="2014-11-29T10:25:23Z">
-      <class name="com.SocialIQLogin.TextFieldInvalid">
-        <test-method status="PASS" signature="FirstNameValidationTest1()[pri:0, instance:com.SocialIQLogin.TextFieldInvalid@664883c]" name="FirstNameValidationTest1" duration-ms="22986" started-at="2014-11-29T15:55:00Z" finished-at="2014-11-29T15:55:23Z">
+    <test name="Default test" duration-ms="35163" started-at="2014-12-02T08:29:42Z" finished-at="2014-12-02T08:30:17Z">
+      <class name="com.SocialIQ.EmailIdAlreadyExist">
+        <test-method status="PASS" signature="FirstNameValidationTest1()[pri:0, instance:com.SocialIQ.EmailIdAlreadyExist@664883c]" name="FirstNameValidationTest1" duration-ms="35135" started-at="2014-12-02T13:59:42Z" finished-at="2014-12-02T14:00:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FirstNameValidationTest1 -->
-      </class> <!-- com.SocialIQLogin.TextFieldInvalid -->
+      </class> <!-- com.SocialIQ.EmailIdAlreadyExist -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

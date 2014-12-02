@@ -30,12 +30,13 @@ public class SubDomainEmpty {
         driver.findElement(By.xpath(".//*[@id='createCompanyProfile']/ul/li[12]/div/button")).click();
         driver.findElement(By.xpath(".//*[@id='createCompanyProfile']/ul/li[12]/div/div/ul/li[4]/a")).click();
         
-        driver.findElement(By.xpath(".//*[@id='subDomainName']")).click();
+      //  driver.findElement(By.xpath(".//*[@id='subDomainName']")).click();
+        driver.findElement(By.xpath(".//*[@id='offerCodeName']")).sendKeys("qwerty");
 		driver.findElement(By.xpath(".//*[@id='submit']")).click();
 		
-		WebElement myDElement = new WebDriverWait(driver, 20).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//span[@class='red']")));
+		WebElement myDElement = new WebDriverWait(driver, 20).until(ExpectedConditions.presenceOfElementLocated(By.xpath(".//*[@id='top']/section/div/div[1]/div/div/ul[1]/li")));
         System.out.println(myDElement.getText());
-		String expectedResult = "Sub Domain Name is empty." ;
+		String expectedResult = "Sub Domain Name not available" ;
 		String actualResult = (myDElement.getText());
 		Assert.assertEquals(actualResult, expectedResult);
 		driver.quit();
