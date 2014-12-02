@@ -22,7 +22,7 @@ public class OfferCodeNtValid {
 		driver.findElement(By.xpath(".//*[@id='companyAdminEmail']")).sendKeys(string1);
 		driver.findElement(By.xpath(".//*[@id='firstNameOfCompanyAdmin']")).sendKeys("Kimi");
         driver.findElement(By.xpath(".//*[@id='lastNameOfCompanyAdmin']")).sendKeys("Agarwal");
-        driver.findElement(By.xpath(".//*[@id='name']")).sendKeys("IG");
+        driver.findElement(By.xpath(".//*[@id='name']")).sendKeys("IGSoftware");
         driver.findElement(By.xpath(".//*[@id='createCompanyProfile']/ul/li[12]/div/button")).click();
         driver.findElement(By.xpath(".//*[@id='createCompanyProfile']/ul/li[12]/div/div/ul/li[4]/a")).click();
         String string2 = "g"+time+"com";
