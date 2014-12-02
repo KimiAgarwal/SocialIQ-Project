@@ -1,5 +1,7 @@
 package com.SocialIQ;
 
+
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -40,4 +42,5 @@ public class TrialPage {
     driver.findElement(By.xpath(".//*[@id='offerCodeName']")).sendKeys("qwerty");
 	driver.findElement(By.xpath(".//*[@id='submit']")).click();
 }
+
 }
