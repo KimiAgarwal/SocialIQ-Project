@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite name="Failed suite [Suite1]">
+  <test name="exampletest1(failed)">
     <classes>
-      <class name="com.SocialIQ.EmailIdInvalid">
+      <class name="com.SocialIQSignUp.SubDomainEmpty">
         <methods>
-          <include name="FirstNameValidationTest2"/>
+          <include name="FirstNameValidationTest"/>
         </methods>
-      </class> <!-- com.SocialIQ.EmailIdInvalid -->
+      </class> <!-- com.SocialIQSignUp.SubDomainEmpty -->
+      <class name="com.SocialIQSignUp.SubDomainAvailable">
+        <methods>
+          <include name="FirstNameValidationTest"/>
+        </methods>
+      </class> <!-- com.SocialIQSignUp.SubDomainAvailable -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- exampletest1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

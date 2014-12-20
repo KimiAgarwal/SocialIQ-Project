@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.SocialIQ.EmailIdInvalid">
+      <class name="com.SocialIQLogin.SorryYouAccountIsDisabled_InvalidPassword">
         <methods>
-          <include name="FirstNameValidationTest2"/>
+          <include name="LoginNameValidationTest"/>
         </methods>
-      </class> <!-- com.SocialIQ.EmailIdInvalid -->
+      </class> <!-- com.SocialIQLogin.SorryYouAccountIsDisabled_InvalidPassword -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

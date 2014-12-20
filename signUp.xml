@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite1">
+  <test name="exampletest1">
+     <classes>
+  
+       <class name="com.SocialIQSignUp.EmailIdAlreadyExist" />
+
+       <class name="com.SocialIQSignUp.EmailIdInvalid" />     
+       
+       <class name="com.SocialIQSignUp.EmailIdIsAvailable" /> 
+       
+       <class name="com.SocialIQSignUp.EmailIdNull" />
+       	
+       	<class name="com.SocialIQSignUp.OfferCodeIsAvailable" />
+       	
+     	<class name="com.SocialIQSignUp.OfferCodeExpired" />
+       	
+     	<class name="com.SocialIQSignUp.OfferCodeNtValid" />
+    
+      	<class name="com.SocialIQSignUp.SubDomainEmpty" /> 
+       	
+       	<class name="com.SocialIQSignUp.SubDomainInvalid" />
+       	
+       	<class name="com.SocialIQSignUp.SubDomainAvailable" />
+       	
+       	<class name="com.SocialIQSignUp.TimeZoneMan" />
+       	
+       	<class name="com.SocialIQSignUp.TrialPage" />
+    </classes>
+  </test>
+</suite>  

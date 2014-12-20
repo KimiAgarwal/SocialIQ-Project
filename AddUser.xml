@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite1">
+  <test name="exampletest1">
+     <classes>
+       	
+       	<class name="com.SocialIQAddUser.Admin_UserHasBeenCreatedSuccessfully" />
+       	
+       	<class name="com.SocialIQAddUser.AdminExe_UserHasBeenCreatedSuccessfully" />
+       	
+       	<class name="com.SocialIQAddUser.Exe_UserHasBeenCreatedSuccessfully" />
+       	
+       	<class name="com.SocialIQAddUser.LastNameNull_Admin_UserHasBeenCreatedSuccessfully" />
+       	
+       	<class name="com.SocialIQAddUser.LastNameNull_AdminExe_UserHasBeenCreatedSuccessfully" />
+       	
+       	<class name="com.SocialIQAddUser.LastNameNull_Exe_UserHasBeenCreatedSuccessfully" />
+       	
+       	<class name="com.SocialIQAddUser.Alphanumerics_Admin_UserHasBeenCreatedSuccessfully" />
+       	
+       	<class name="com.SocialIQAddUser.Alphanumerics_AdminExe_UserHasBeenCreatedSuccessfully" />
+       	       	
+       	<class name="com.SocialIQAddUser.Alphanumerics_Exe_UserHasBeenCreatedSuccessfully" />
+       	
+       	<class name="com.SocialIQAddUser.NumericNumbers_Admin_UserHasBeenCreatedSuccessfully" />
+       	
+       	<class name="com.SocialIQAddUser.NumericNumbers_AdminExe_UserHasBeenCreatedSuccessfully" />
+       	
+       	<class name="com.SocialIQAddUser.NumericNumbers_Exe_UserHasBeenCreatedSuccessfully" />
+       	
+       	<class name="com.SocialIQAddUser.SpecialCharacters_Admin_UserHasBeenCreatedSuccessfully" />
+       	
+       	<class name="com.SocialIQAddUser.SpecialCharacters_AdminExe_UserHasBeenCreatedSuccessfully" />
+       	
+       	<class name="com.SocialIQAddUser.SpecialCharacters_Exe_UserHasBeenCreatedSuccessfully" />
+       	
+       	<class name="com.SocialIQAddUser.FirstNameIsMandatory" />
+       	
+       	<class name="com.SocialIQAddUser.UserNameIsMandatory" />
+       	
+       	<class name="com.SocialIQAddUser.ItIsMandatoryToSelectAtLeastOneRole" />
+       	
+       	<class name="com.SocialIQAddUser.ActivatedDisabled_Admin_UserHasBeenCreatedSuccessfully" />
+       	
+       	<class name="com.SocialIQAddUser.ActivatedDisabled_AdminExe_UserHasBeenCreatedSuccessfully" />
+       	
+       	<class name="com.SocialIQAddUser.ActivatedDisabled_Exe_UserHasBeenCreatedSuccessfully" />
+       	
+       	<class name="com.SocialIQAddUser.FieldsAreMandatory" />
+       	
+       	<class name="com.SocialIQAddUser.ExistingUsername_ThisUsernameIsNotAvailable" />
+       	
+       	<class name="com.SocialIQAddUser.InvalidUsername_ThisUsernameIsNotAValidEmail" />
+       	
+    </classes>
+  </test>
+</suite>  

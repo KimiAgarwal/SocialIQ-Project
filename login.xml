@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite1">
+  <test name="exampletest1">
+     <classes>
+
+		<class name="com.SocialIQLogin.LoginWillTakPlaceSuccessfully" />
+		
+		<class name="com.SocialIQLogin.InvalidEmailIdPassword" />
+     
+       	<class name="com.SocialIQLogin.SorryYouAccountIsDisabled_InvalidPassword" />
+       	
+       	<class name="com.SocialIQLogin.SorryYourAccountIsDisabled" />
+
+    </classes>
+  </test>
+</suite>  

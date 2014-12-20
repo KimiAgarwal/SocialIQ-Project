@@ -1,17 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="35163" started-at="2014-12-02T08:29:42Z" finished-at="2014-12-02T08:30:17Z">
+  <suite name="Suite1" duration-ms="122338" started-at="2014-12-20T04:47:01Z" finished-at="2014-12-20T04:49:03Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="35163" started-at="2014-12-02T08:29:42Z" finished-at="2014-12-02T08:30:17Z">
-      <class name="com.SocialIQ.EmailIdAlreadyExist">
-        <test-method status="PASS" signature="FirstNameValidationTest1()[pri:0, instance:com.SocialIQ.EmailIdAlreadyExist@664883c]" name="FirstNameValidationTest1" duration-ms="35135" started-at="2014-12-02T13:59:42Z" finished-at="2014-12-02T14:00:17Z">
+    <test name="exampletest1" duration-ms="122338" started-at="2014-12-20T04:47:01Z" finished-at="2014-12-20T04:49:03Z">
+      <class name="com.SocialIQForgetPassword.EmailIsMandatory">
+        <test-method status="PASS" signature="EmailNameValidationTest()[pri:0, instance:com.SocialIQForgetPassword.EmailIsMandatory@322c1e6b]" name="EmailNameValidationTest" duration-ms="28168" started-at="2014-12-20T10:17:27Z" finished-at="2014-12-20T10:17:55Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FirstNameValidationTest1 -->
-      </class> <!-- com.SocialIQ.EmailIdAlreadyExist -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- EmailNameValidationTest -->
+      </class> <!-- com.SocialIQForgetPassword.EmailIsMandatory -->
+      <class name="com.SocialIQForgetPassword.YourPasswordResetEmailWasSent">
+        <test-method status="PASS" signature="EmailNameValidationTest()[pri:0, instance:com.SocialIQForgetPassword.YourPasswordResetEmailWasSent@5d5bdc50]" name="EmailNameValidationTest" duration-ms="35034" started-at="2014-12-20T10:18:28Z" finished-at="2014-12-20T10:19:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmailNameValidationTest -->
+      </class> <!-- com.SocialIQForgetPassword.YourPasswordResetEmailWasSent -->
+      <class name="com.SocialIQForgetPassword.EmailInvalid">
+        <test-method status="PASS" signature="EmailNameValidationTest()[pri:0, instance:com.SocialIQForgetPassword.EmailInvalid@65b60280]" name="EmailNameValidationTest" duration-ms="26054" started-at="2014-12-20T10:17:01Z" finished-at="2014-12-20T10:17:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmailNameValidationTest -->
+      </class> <!-- com.SocialIQForgetPassword.EmailInvalid -->
+      <class name="com.SocialIQForgetPassword.UsernameNotExist">
+        <test-method status="PASS" signature="EmailNameValidationTest()[pri:0, instance:com.SocialIQForgetPassword.UsernameNotExist@2353f67e]" name="EmailNameValidationTest" duration-ms="33039" started-at="2014-12-20T10:17:55Z" finished-at="2014-12-20T10:18:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmailNameValidationTest -->
+      </class> <!-- com.SocialIQForgetPassword.UsernameNotExist -->
+    </test> <!-- exampletest1 -->
+  </suite> <!-- Suite1 -->
 </testng-results>
