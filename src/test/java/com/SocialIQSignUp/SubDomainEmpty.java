@@ -37,7 +37,7 @@ public class SubDomainEmpty {
         
 		driver.findElement(By.xpath(".//*[@id='submit']")).click();
 		
-		WebElement myDElement = new WebDriverWait(driver, 20).until(ExpectedConditions.presenceOfElementLocated(By.xpath(".//span[@class='red']")));
+		WebElement myDElement = new WebDriverWait(driver, 10).until(ExpectedConditions.presenceOfElementLocated(By.xpath(".//span[@class='red']")));
         System.out.println(myDElement.getText());
 		String expectedResult = "Sub Domain Name is empty." ;
 		String actualResult = (myDElement.getText());
