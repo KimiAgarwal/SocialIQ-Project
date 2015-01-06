@@ -18,7 +18,7 @@ public class InvalidUsername_ThisUsernameIsNotAValidEmail {
 
 	@Test
 	public void AddUserNameValidationTest() throws InterruptedException{
-		WebDriver driver = WebDriverUtil.createWebDriver(Config.Login_URL, 30L);
+		WebDriver driver = WebDriverUtil.createWebDriver(Config.Login_URL, 20L);
 		
 		driver.findElement(By.xpath(".//*[@id='username']")).sendKeys("raj@pepsi.com");
 		driver.findElement(By.xpath(".//*[@id='password']")).sendKeys("test");

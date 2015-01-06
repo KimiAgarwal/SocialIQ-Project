@@ -17,7 +17,7 @@ public class Alphanumerics_AdminExe_UserHasBeenCreatedSuccessfully {
 	
 	@Test
 	public void AddUserNameValidationTest() throws InterruptedException{
-		WebDriver driver = WebDriverUtil.createWebDriver(Config.Login_URL, 30L);
+		WebDriver driver = WebDriverUtil.createWebDriver(Config.Login_URL, 20L);
 		long time =System.currentTimeMillis();
 		
 		driver.findElement(By.xpath(".//*[@id='username']")).sendKeys("raj@pepsi.com");
@@ -74,7 +74,7 @@ public class Alphanumerics_AdminExe_UserHasBeenCreatedSuccessfully {
 		   driver.findElement(By.xpath(".//*[@id='username']")).sendKeys(string1);
 			driver.findElement(By.xpath(".//*[@id='password']")).sendKeys("test");
 			driver.findElement(By.xpath(".//*[@id='submitForLoginButton']")).click();
-//			driver.quit();
+			driver.quit();
 	   
 	}
 	}

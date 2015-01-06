@@ -36,7 +36,7 @@ public class CatchwordsAlreadyExistInOtherCategories {
 		
 		
 		WebElement input = driver.findElement(By.xpath(".//*[@id='createCategoryForm']/div[4]/div/div/input[2]"));
-		String email[] = {"dead,rupee"};
+		String email[] = {"money,rupee"};
 		for(int i=0; i<email.length; i++){
 		input.clear();
 		input.sendKeys(email[i]); // the value we want to set to input"
@@ -58,7 +58,7 @@ public class CatchwordsAlreadyExistInOtherCategories {
 		
 		
 		Thread.sleep(2000);
-		String expectedResult = "Catch word(s) dead, rupee already exist in other categories." ;
+		String expectedResult = "Catch word(s) money, rupee already exist in other categories." ;
 		String actualResult = (myDElement.getText());
 		//Assert.assertEquals(expectedResult, actualResult);
 		Assert.assertEquals(actualResult, expectedResult);

@@ -2,30 +2,132 @@
 <suite name="Suite1">
   <test name="exampletest1">
      <classes>
-  
-       <class name="com.SocialIQ.EmailIdAlreadyExist" />
+   
+        <class name="com.SocialIQSignUp.EmailIdAlreadyExist" />
 
-       <class name="com.SocialIQ.EmailIdInvalid" />     
+        <class name="com.SocialIQSignUp.EmailIdInvalid" />     
        
-       <class name="com.SocialIQ.EmailIdExist" /> 
+        <class name="com.SocialIQSignUp.EmailIdIsAvailable" /> 
        
-       <class name="com.SocialIQ.EmailIdNull" />
+        <class name="com.SocialIQSignUp.EmailIdNull" />
        	
-       	<class name="com.SocialIQ.OfferCodeExist" />
+       	<class name="com.SocialIQSignUp.OfferCodeIsAvailable" />
        	
-     	<class name="com.SocialIQ.OfferCodeExpired" />
+     	<class name="com.SocialIQSignUp.OfferCodeExpired" />
        	
-     	<class name="com.SocialIQ.OfferCodeNtValid" />
+     	<class name="com.SocialIQSignUp.OfferCodeNtValid" />
     
-      	<class name="com.SocialIQ.SubDomainEmpty" /> 
+      	<class name="com.SocialIQSignUp.SubDomainEmpty" /> 
        	
-       	<class name="com.SocialIQ.SubDomainInvalid" />
+       	<class name="com.SocialIQSignUp.SubDomainInvalid" />
        	
-       	<class name="com.SocialIQ.SubDomainExist" />
+       	<class name="com.SocialIQSignUp.SubDomainAvailable" />
        	
-       	<class name="com.SocialIQ.TimeZoneMan" />
+       	<class name="com.SocialIQSignUp.TimeZoneMan" />
        	
-       	<class name="com.SocialIQ.TrialPage" />
-    </classes>
+       	<class name="com.SocialIQSignUp.TrialPage" />
+
+
+	<class name="com.SocialIQLogin.LoginWillTakPlaceSuccessfully" />
+		
+	<class name="com.SocialIQLogin.InvalidEmailIdPassword" />
+     
+       	<class name="com.SocialIQLogin.SorryYouAccountIsDisabled_InvalidPassword" />
+       	
+       	<class name="com.SocialIQLogin.SorryYourAccountIsDisabled" />
+
+
+	<class name="com.SocialIQForgetPassword.EmailInvalid" />
+		
+	<class name="com.SocialIQForgetPassword.EmailIsMandatory" />
+     
+       	<class name="com.SocialIQForgetPassword.UsernameNotExist" />
+       	
+       	<class name="com.SocialIQForgetPassword.YourPasswordResetEmailWasSent" />
+    
+
+       	<class name="com.SocialIQAddUser.Admin_UserHasBeenCreatedSuccessfully" />
+       	
+       	<class name="com.SocialIQAddUser.AdminExe_UserHasBeenCreatedSuccessfully" />
+       	
+       	<class name="com.SocialIQAddUser.Exe_UserHasBeenCreatedSuccessfully" />
+       	
+       	<class name="com.SocialIQAddUser.LastNameNull_Admin_UserHasBeenCreatedSuccessfully" />
+       	
+       	<class name="com.SocialIQAddUser.LastNameNull_AdminExe_UserHasBeenCreatedSuccessfully" />
+       	
+       	<class name="com.SocialIQAddUser.LastNameNull_Exe_UserHasBeenCreatedSuccessfully" />
+       	
+       	<class name="com.SocialIQAddUser.Alphanumerics_Admin_UserHasBeenCreatedSuccessfully" />
+       	
+       	<class name="com.SocialIQAddUser.Alphanumerics_AdminExe_UserHasBeenCreatedSuccessfully" />
+       	       	
+       	<class name="com.SocialIQAddUser.Alphanumerics_Exe_UserHasBeenCreatedSuccessfully" />
+       	
+       	<class name="com.SocialIQAddUser.NumericNumbers_Admin_UserHasBeenCreatedSuccessfully" />
+       	
+       	<class name="com.SocialIQAddUser.NumericNumbers_AdminExe_UserHasBeenCreatedSuccessfully" />
+       	
+       	<class name="com.SocialIQAddUser.NumericNumbers_Exe_UserHasBeenCreatedSuccessfully" />
+       	
+       	<class name="com.SocialIQAddUser.SpecialCharacters_Admin_UserHasBeenCreatedSuccessfully" />
+       	
+       	<class name="com.SocialIQAddUser.SpecialCharacters_AdminExe_UserHasBeenCreatedSuccessfully" />
+       	
+       	<class name="com.SocialIQAddUser.SpecialCharacters_Exe_UserHasBeenCreatedSuccessfully" />
+       	
+       	<class name="com.SocialIQAddUser.FirstNameIsMandatory" />
+       	
+       	<class name="com.SocialIQAddUser.UserNameIsMandatory" />
+       	
+       	<class name="com.SocialIQAddUser.ItIsMandatoryToSelectAtLeastOneRole" />
+       	
+       	<class name="com.SocialIQAddUser.ActivatedDisabled_Admin_UserHasBeenCreatedSuccessfully" />
+       	
+       	<class name="com.SocialIQAddUser.ActivatedDisabled_AdminExe_UserHasBeenCreatedSuccessfully" />
+       	
+       	<class name="com.SocialIQAddUser.ActivatedDisabled_Exe_UserHasBeenCreatedSuccessfully" />
+       	
+       	<class name="com.SocialIQAddUser.FieldsAreMandatory" />
+       	
+       	<class name="com.SocialIQAddUser.ExistingUsername_ThisUsernameIsNotAvailable" />
+       	
+       	<class name="com.SocialIQAddUser.InvalidUsername_ThisUsernameIsNotAValidEmail" />
+
+
+	<class name="com.SocialIQCreateCategory.AllFieldsAreMandatory" />
+
+        <class name="com.SocialIQCreateCategory.BusinessCategoryWithThisNameAlreadyExists" />     
+       
+        <class name="com.SocialIQCreateCategory.CallaboratorsEmailNull_CategoryHasBeenCreatedSuccessfully" /> 
+       
+        <class name="com.SocialIQCreateCategory.CatchwordsAlreadyExistInOtherCategories" />
+       	
+       	<class name="com.SocialIQCreateCategory.CatchWordsAreRequired" />
+       	
+       	<class name="com.SocialIQCreateCategory.CategoryHasBeenCreatedSuccessfully" />
+       	
+     	<class name="com.SocialIQCreateCategory.CategoryName_NumericNumber_CategoryHasBeenCreatedSuccessfully" />
+       	
+     	<class name="com.SocialIQCreateCategory.CategoryName_SpecialCharacters_CategoryHasBeenCreatedSuccessfully" />
+    
+      	<class name="com.SocialIQCreateCategory.EmailAlert_Disabled_CategoryHasBeenCreatedSuccessfully" /> 
+       	
+       	<class name="com.SocialIQCreateCategory.NameIsRequired" />
+       	
+       	<class name="com.SocialIQCreateCategory.ThisRedirectionEmailIsNotAValidEmailAddress" />
+       	
+       	<class name="com.SocialIQCreateCategory.ThresholdClosureTimeIsRequired" />
+       	
+       	<class name="com.SocialIQCreateCategory.ThresholdResponseTimeForInternalCollaborationIsRequired" />
+       	
+       	<class name="com.SocialIQCreateCategory.ThresholdResponseTimeIsRequired" />
+       	
+       	<class name="com.SocialIQCreateCategory.Time_Alphanumeric_CategoryHasBeenCreatedSuccessfully" />
+       	
+       	<class name="com.SocialIQCreateCategory.Time_SpecialCharacters_CategoryHasBeenCreatedSuccessfully" />
+       	
+       	<class name="com.SocialIQCreateCategory.Time_Text_CategoryHasBeenCreatedSuccessfully" />
+</classes>
   </test>
 </suite>  
