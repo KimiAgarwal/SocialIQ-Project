@@ -18,8 +18,8 @@ public class SorryYouAccountIsDisabled_InvalidPassword {
 	public void LoginNameValidationTest(){
 		WebDriver driver = WebDriverUtil.createWebDriver(Config.Login_URL, 30L);
 		
-		driver.findElement(By.xpath(".//*[@id='username']")).sendKeys("john@pepsi.com");
-		driver.findElement(By.xpath(".//*[@id='password']")).sendKeys("jnkndfkjtest");
+		driver.findElement(By.xpath(".//*[@id='username']")).sendKeys("disabledUser@pepsi.com");
+		driver.findElement(By.xpath(".//*[@id='password']")).sendKeys("tcxcvest");
 		driver.findElement(By.xpath(".//*[@id='submitForLoginButton']")).click();
 		
 		WebElement myDElement = new WebDriverWait(driver,20).until(ExpectedConditions.presenceOfElementLocated(By.xpath(".//*[@id='flashErrorMessage']")));

@@ -8,7 +8,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class WebDriverUtil {
 
 	
-	public static WebDriver createWebDriver(String url, Long seconds ){
+	public static WebDriver createWebDriver(java.lang.String url, Long seconds ){
 		WebDriver driver = new FirefoxDriver();
 		driver. manage().window().maximize();
 		driver.get(url);

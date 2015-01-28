@@ -23,7 +23,7 @@ public class YourPasswordResetEmailWasSent {
 		WebElement myDElement = new WebDriverWait(driver,20).until(ExpectedConditions.presenceOfElementLocated(By.xpath(".//*[@id='fashSuccessMessage']")));
         System.out.println(myDElement.getText());
 		
-		Thread.sleep(3000);
+		
 		String expectedResult = "Your password reset email was sent - check your mail!" ;
 		String actualResult = (myDElement.getText());
 		//Assert.assertEquals(expectedResult, actualResult);
