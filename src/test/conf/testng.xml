@@ -95,39 +95,19 @@
        	<class name="com.SocialIQAddUser.InvalidUsername_ThisUsernameIsNotAValidEmail" />
 
 
-	<class name="com.SocialIQCreateCategory.AllFieldsAreMandatory" />
+        <class name="com.SocialIQCreateCategory.AllFieldsAreMandatory" />
 
         <class name="com.SocialIQCreateCategory.BusinessCategoryWithThisNameAlreadyExists" />     
-       
-        <class name="com.SocialIQCreateCategory.CallaboratorsEmailNull_CategoryHasBeenCreatedSuccessfully" /> 
        
         <class name="com.SocialIQCreateCategory.CatchwordsAlreadyExistInOtherCategories" />
        	
        	<class name="com.SocialIQCreateCategory.CatchWordsAreRequired" />
        	
        	<class name="com.SocialIQCreateCategory.CategoryHasBeenCreatedSuccessfully" />
-       	
-     	<class name="com.SocialIQCreateCategory.CategoryName_NumericNumber_CategoryHasBeenCreatedSuccessfully" />
-       	
-     	<class name="com.SocialIQCreateCategory.CategoryName_SpecialCharacters_CategoryHasBeenCreatedSuccessfully" />
     
       	<class name="com.SocialIQCreateCategory.EmailAlert_Disabled_CategoryHasBeenCreatedSuccessfully" /> 
        	
        	<class name="com.SocialIQCreateCategory.NameIsRequired" />
-       	
-       	<class name="com.SocialIQCreateCategory.ThisRedirectionEmailIsNotAValidEmailAddress" />
-       	
-       	<class name="com.SocialIQCreateCategory.ThresholdClosureTimeIsRequired" />
-       	
-       	<class name="com.SocialIQCreateCategory.ThresholdResponseTimeForInternalCollaborationIsRequired" />
-       	
-       	<class name="com.SocialIQCreateCategory.ThresholdResponseTimeIsRequired" />
-       	
-       	<class name="com.SocialIQCreateCategory.Time_Alphanumeric_CategoryHasBeenCreatedSuccessfully" />
-       	
-       	<class name="com.SocialIQCreateCategory.Time_SpecialCharacters_CategoryHasBeenCreatedSuccessfully" />
-       	
-       	<class name="com.SocialIQCreateCategory.Time_Text_CategoryHasBeenCreatedSuccessfully" />
 </classes>
   </test>
 </suite>  
