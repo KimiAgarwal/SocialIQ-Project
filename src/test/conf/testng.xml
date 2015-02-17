@@ -3,21 +3,15 @@
   <test name="exampletest1">
      <classes>
    
-
+       	<class name="com.socialIQ_smokeTestCase.TrialPage" />
        	
-       	<class name="com.SocialIQSignUp.TrialPage" />
-
-
-	<class name="com.SocialIQLogin.LoginWillTakPlaceSuccessfully" />
-
+       	<class name="com.socialIQ_smokeTestCase.LoginWillTakPlaceSuccessfully" />
        	
-       	<class name="com.SocialIQForgetPassword.YourPasswordResetEmailWasSent" />
-    
-
-       	<class name="com.SocialIQAddUser.Admin_UserHasBeenCreatedSuccessfully" />
-  
+       	<class name="com.socialIQ_smokeTestCase.YourPasswordResetEmailWasSent" />       	
        	
-       	<class name="com.SocialIQCreateCategory.CategoryHasBeenCreatedSuccessfully" />
+     	<class name="com.socialIQ_smokeTestCase.LastNameNull_Admin_UserHasBeenCreatedSuccessfully" />
+     	
+     	<class name="com.socialIQ_smokeTestCase.CategoryHasBeenCreatedSuccessfully" />
  
 </classes>
   </test>
